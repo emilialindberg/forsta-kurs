@@ -1,0 +1,29 @@
+/*navigeringsmeny*/
+nav
+{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1000px;
+    height: 3rem;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*bild i navmeny*/
+nav img {
+    height: 50%;
+     
+}
+
+/*länkar i navmeny*/
+nav a {
+    text-decoration: none; /*tar bort understruket på knappar*/
+    color: #0a0a0a73;
+    margin: 1rem; /* margin hela boxen*/
+}
+/*hovra över länk i navmeny*/
+nav a:hover {
+    color: #222;
+}
+

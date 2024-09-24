@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+} /*applicerar alla (pga->*)
+sizing/box= hur storleken på elementet räknas*/   
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex; /*aktiverar flexfunktioner*/
+    position: relative; /* Referenspunkt för .box2*/
+    justify-content: center; /*horisonellt*/
+    align-items: center;
+}
+
+.box {
+    height: 300px; 
+    width: 400px; 
+    background-color: white; 
+    border-color: black; /*linje runt lådan*/
+    border-style: solid; /* (enkel linje, utan avbrott)*/   
+    padding: 10px; /*mellanrum innehåll och kant*/
+    display: flex; /*aktiverar flex-funktioner*/
+    justify-content: center; /*centrerar boxen/barnet 
+    till container horisonellt*/
+    align-items: center; /*centrerar boxen vertikalt*/
+}
+
+
+.box2 { /*röd cirkel inuti första box*/
+    position: absolute; /*placeras var man vill i förhållande till föräldern*/ 
+    height: 200px; 
+    width: 200px;
+    background-color: #eb0c0c;
+    border-radius: 100px; /*Rundar av hörn med 100%*/
+    }
+
+   

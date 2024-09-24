@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    z-index: 1;
+}
+.container img {
+    max-width: 100%; /* Gör att bilden skalas om den är för stor */
+    height: auto;
+    z-index: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container för sökrutan */
+.search-container {
+     position: relative;
+            width: 100%;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
+}
+
+/* Styling för sökinput */
+.search-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+/* Styling för sökknappen */
+.search-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+

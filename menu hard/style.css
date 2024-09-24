@@ -1,0 +1,29 @@
+nav {
+    background-color: lightgrey;
+    display: flex;
+    justify-self: 1%
+    font-size: 1rem;
+    height: 3rem;
+}
+
+nav img {
+    height: 50%;
+    margin: auto auto auto 1rem;
+}
+
+nav a {
+    margin: auto;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+button {
+    padding:.25rem 1rem; 
+    background-color: lightgrey; /*bakgrundsfärg*/
+    color: grey;
+    border: .10rem solid #999; /*färg och tjocklek på border runt login*/
+    border-radius: 20rem; /*rundar bordern, knappen*/
+    margin-left: auto;
+}
